@@ -1,6 +1,8 @@
 import csv, smtplib, ssl
 import os
 
+#test
+
 
 for file in os.listdir("."):
     zuordnung = {file : file[:-4]+"@kgs-rastede.de"}
@@ -14,7 +16,6 @@ for file in os.listdir("."):
 daten ={ 'moin': 'heisst hall', 'bis bald': 'verabschiedung' }
 
 print(daten.get('moin'))
-
 
 """
 message = "moin"
